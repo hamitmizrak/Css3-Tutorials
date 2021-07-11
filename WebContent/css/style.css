@@ -271,9 +271,50 @@ div~p {
 #resim_id:hover {
     opacity: 0.9;
     border: 1px solid red;
-    box-shadow: 1px 2px 3px 5px rgba(0,0,0, 0.8);
+    box-shadow: 1px 2px 3px 5px rgba(0, 0, 0, 0.8);
     cursor: pointer;
     object-fit: cover;
     object-position: bottom;
-   
+
+}
+
+
+/* responsive design media query*/
+#media_query_id {
+    background-color: black;
+    color: white;
+    border: 3px solid blue;
+    /* margin: 10px; */
+    padding: 5px;
+    height: 150px;
+    width: 25%;
+    float: left;
+    box-sizing: border-box;
+    /* p+b=Width */
+}
+
+#media_query_id:hover {
+    box-shadow: 1px 2px 3px 10px rgba(199, 18, 18, 0.4);
+    background-color: white;
+    border: 8px solid blue;
+    color: black;
+}
+
+/* MSA */
+@media screen and (min-width:600px) {
+    #media_query_id {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:800px) {
+    #media_query_id {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    #media_query_id {
+        width: 25%;
+    }
 }
