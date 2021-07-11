@@ -220,11 +220,12 @@ div~p {
     background-color: black;
     color: white;
     border: 3px solid blue;
-    margin: 10px;
+   /* margin: 10px; */
     padding: 5px;
     height: 150px;
     width: 25%;
     float: left;
+    box-sizing: border-box; /* p+b=Width */
 }
 
 #box_shadow_id:hover {
@@ -232,4 +233,27 @@ div~p {
     background-color: white;
     border: 8px solid blue;
     color: black;
+}
+
+/* transaction_id*/
+#transaction_id {
+    background-color: black;
+    color: white;
+    border: 3px solid blue;
+   /* margin: 10px; */
+    padding: 5px;
+    height: 150px;
+    width: 25%;
+    float: left;
+    box-sizing: border-box; /* p+b=Width */
+    transition: all 3s;
+}
+
+#transaction_id:hover {
+    box-shadow: 1px 2px 3px 10px rgba(199, 18, 18, 0.4);
+    background-color: red;
+    border: 8px solid blue;
+    color: black;
+    width: 45%;
+    height: 250px;
 }
