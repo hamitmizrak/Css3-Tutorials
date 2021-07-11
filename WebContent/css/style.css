@@ -3,3 +3,93 @@
 h2 {
     color: orange;
 }
+
+/* id  */
+#tekil_p {
+    color: blue;
+    font-size: 30px;
+}
+
+/* class  */
+.cogul_p {
+    color: red;
+    font-size: 40px;
+}
+
+/*  ////////////////////////////// */
+/*
+#spes_h3{
+    color:chocolate;
+}
+*/
+
+#deneme_div h3 {
+    color: chocolate;
+}
+
+span h3 {
+    color: cyan;
+}
+
+
+#margin_id p {
+    color: coral;
+    font-size: 25px;
+
+    /*  margin:dış boşluk */
+    /* margin:50px;  her yerden 50px dış boşluk */
+    /* margin-top: 80px;*/
+    /* margin: 20px 40px 60px 80px;*/
+    margin: 40px 60px;
+
+    border: 5px solid blue;
+    /* padding:iç boşluk*/
+    /* padding:50px;  her yerden 50px dış boşluk */
+    /* padding-top: 80px;*/
+    /* padding: 20px 40px 60px 80px;*/
+    padding: 40px 60px;
+}
+
+/* color ,background ,background-color */
+#color_id p {
+    font-size: 80px;
+    /* color:blue; */
+    /* 0=siyah 255=beyaz */
+    /* color: rgb(37, 27, 177); */
+    /* color: rgb(85%, 5%, 6%); */
+    /* color: rgba(85%, 5%, 6%, .5); */
+    /* color: rgba(37, 27, 177,0.1); */
+    /* color: #02c; */
+    /* color: #02c526; */
+    padding: .5%;
+    color: white;
+    background-color: black;
+
+}
+
+/* border */
+#border_id p {
+    font-size: 60px;
+    color: red;
+    padding: 10px;
+    margin: 10px;
+    /* border */
+    /* border-top: 2px solid blue; */
+    /* border-left: 2px solid blue; */
+    border: 10px solid blue;
+    /*  border-radius: 100px; */
+    /* border-top-left-radius: 100px;*/
+    /* border-top-right-radius: 100px;*/
+    border-radius: 50% 50%;
+}
+
+
+/* font */
+#font_id p {
+    /* font-size: x-large;*/
+    font-size: 80px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
