@@ -189,7 +189,7 @@ div~p {
     padding: 12px;
     margin: 20px;
     border-radius: 6px;
-    font-size:16px;
+    font-size: 16px;
     /* min-width: 120px!important;*/
     /* max-width:120px; */
 }
@@ -197,22 +197,22 @@ div~p {
 #a_link:hover {
     background-color: orange;
     color: blue;
-    font-size:18px;
-   /* list-style-type: none; */
+    font-size: 18px;
+    /* list-style-type: none; */
 }
 
 #a_link:visited {
     background-color: green;
     color: yellow;
-    font-size:20px;
-   /* list-style-type: none; */
+    font-size: 20px;
+    /* list-style-type: none; */
 }
 
 #a_link:active {
     background-color: black;
     color: yellow;
-    font-size:20px;
-   /* list-style-type: none; */
+    font-size: 20px;
+    /* list-style-type: none; */
 }
 
 /* box-shadow*/
@@ -220,12 +220,13 @@ div~p {
     background-color: black;
     color: white;
     border: 3px solid blue;
-   /* margin: 10px; */
+    /* margin: 10px; */
     padding: 5px;
     height: 150px;
     width: 25%;
     float: left;
-    box-sizing: border-box; /* p+b=Width */
+    box-sizing: border-box;
+    /* p+b=Width */
 }
 
 #box_shadow_id:hover {
@@ -240,12 +241,13 @@ div~p {
     background-color: black;
     color: white;
     border: 3px solid blue;
-   /* margin: 10px; */
+    /* margin: 10px; */
     padding: 5px;
     height: 150px;
     width: 25%;
     float: left;
-    box-sizing: border-box; /* p+b=Width */
+    box-sizing: border-box;
+    /* p+b=Width */
     transition: all 3s;
 }
 
@@ -256,4 +258,22 @@ div~p {
     color: black;
     width: 45%;
     height: 250px;
+}
+
+/* resim*/
+#resim_id {
+    width: 60%;
+    height: 800px;
+    margin: 10px 2px 150px 2px;
+
+}
+
+#resim_id:hover {
+    opacity: 0.9;
+    border: 1px solid red;
+    box-shadow: 1px 2px 3px 5px rgba(0,0,0, 0.8);
+    cursor: pointer;
+    object-fit: cover;
+    object-position: bottom;
+   
 }
